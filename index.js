@@ -11,9 +11,7 @@ app.set('views', './views')
 
 const AWS = require('aws-sdk')
 const config = new AWS.Config({
-    accessKeyId: 'AKIASREHWAQR6E3J2G5F',
-    secretAccessKey: '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',
-    region: 'ap-southeast-1'
+
 })
 AWS.config = config
 
